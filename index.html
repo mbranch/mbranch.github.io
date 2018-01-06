@@ -21,7 +21,7 @@
         <h4>
           <a id="email-link" href="mailto:">Email</a>,
           <a href="https://github.com/mbranch">Github</a>,
-          <a href="https://www.linkedin.com/in/branch-michael/">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/branch-michael">LinkedIn</a>
         </h4>
       </section>
 
@@ -40,7 +40,7 @@
         <p>Worked on a highly-productive and self-directed technology team that values technical craftsmanship and involvement with product strategy.</p>
 
         <ul>
-          <li>Developed a high-volume email system with personalization and event tracking capabilities with <code>Go</code>.</li>
+          <li>Developed a high-volume email campaign system with personalization and event tracking capabilities with <code>Go</code>.</li>
           <li>Built a compositing tool leveraging web technologies (<code>Nodejs</code>, <code>React</code>, <code>PhantomJS</code>) capable of generating personalized images on-demand for emails.</li>
         </ul>
       </section>
@@ -110,12 +110,28 @@
 
         <h3>Languages</h3>
         <ul>
-          <li>Go, JavaScript/NodeJS, Java, Obj-C, Python, PHP, Ruby, Swift.</li>
+          <li>
+            <a href="https://golang.org">Go</a>,
+            <a href="https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript">JavaScript</a>/<a href="https://nodejs.org/">NodeJS</a>,
+            <a href="https://java.com">Java</a>,
+            <a href="https://developer.apple.com/documentation/objectivec">Obj-C</a>,
+            <a href="https://www.python.org">Python</a>,
+            <a href="http://www.php.net">PHP</a>,
+            <a href="https://www.ruby-lang.org">Ruby</a>,
+            <a href="https://developer.apple.com/swift">Swift</a>
+          </li>
         </ul>
 
         <h3>Databases</h3>
         <ul>
-          <li>Core Data, MongoDB, MySQL, Postgres, Redis, SQLite.</li>
+          <li>
+            <a href="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreData/index.html">Core Data</a>,
+            <a href="https://www.mongodb.com">MongoDB</a>,
+            <a href="https://www.mysql.com">MySQL</a>,
+            <a href="https://www.postgresql.org">Postgres</a>,
+            <a href="https://redis.io">Redis</a>,
+            <a href="https://www.sqlite.org">SQLite</a>
+          </li>
         </ul>
 
         <h3>Tools &amp; Frameworks</h3>
@@ -125,30 +141,31 @@
             <a href="https://aws.amazon.com/dynamodb">DynamoDB</a>,
             <a href="https://aws.amazon.com/ec2">EC2</a>,
             <a href="https://aws.amazon.com/s3">S3</a>,
-            <a href="https://aws.amazon.com/sns">SNS</a>.
+            <a href="https://aws.amazon.com/sns">SNS</a>
           </li></ul>
-          <li>JavaScript<ul><li>
-            <a href="http://backbonejs.org/">Backbone</a>,
-            <a href="https://jasmine.github.io/">Jasmine</a>,
-            <a href="https://lodash.com/">Lodash</a>,
+          <li>JavaScript/NodeJS<ul><li>
+            <a href="http://backbonejs.org">Backbone</a>,
+            <a href="https://jasmine.github.io">Jasmine</a>,
+            <a href="https://lodash.com">Lodash</a>,
             <a href="https://github.com/MithrilJS/mithril.js">Mithril</a>,
-            <a href="http://phantomjs.org/">PhantomJS</a>,
-            <a href="https://facebook.github.io/react/">React</a>,
-            <a href="https://threejs.org/">three.js</a>,
-            <a href="http://underscorejs.org/">Underscore</a>.
+            <a href="http://phantomjs.org">PhantomJS</a>,
+            <a href="https://github.com/GoogleChrome/puppeteer">Puppeteer</a>,
+            <a href="https://facebook.github.io/react">React</a>,
+            <a href="https://threejs.org">three.js</a>,
+            <a href="http://underscorejs.org">Underscore</a>
           </li></ul>
           <li>Python<ul><li>
             <a href="https://github.com/agschwender/pilbox">Pilbox</a>,
-            <a href="http://www.tornadoweb.org/">Tornado</a>
+            <a href="http://www.tornadoweb.org">Tornado</a>
           </li></ul>
           <li>Ruby<ul><li>
-            <a href="http://rubyonrails.org/">Rails</a>,
-            <a href="http://rspec.info/">Rspec</a>,
-            <a href="http://www.sinatrarb.com/">Sinatra</a>.
+            <a href="http://rubyonrails.org">Rails</a>,
+            <a href="http://rspec.info">Rspec</a>,
+            <a href="http://www.sinatrarb.com">Sinatra</a>
           </li></ul>
           <li>Swift<ul><li>
             <a href="https://github.com/Alamofire/Alamofire">Alamofire</a>,
-            <a href="https://github.com/SwiftyJSON/SwiftyJSON">SwiftyJSON</a>.
+            <a href="https://github.com/SwiftyJSON/SwiftyJSON">SwiftyJSON</a>
           </li></ul>
         </ul>
       </section>
@@ -163,16 +180,19 @@
     </article>
 
     <footer>
-      <p><small>Updated <em>31-July 2017</em>.</small></p>
+      <p><small>Updated <em>06-Jan 2018</em>.</small></p>
     </footer>
 
     <script>
-      // Simple email obfuscation that _may_ even work with simple harvesting
-      // robots that execute JavaScript. Await a user generated event before
-      // exposing the raw email address.
+      /*
+       * Email obfuscation that _may_ even work with simple harvesting robots
+       * that execute JavaScript. Await a user generated event before exposing
+       * the raw email address.
+       */
       var events = ['scroll', 'mousemove', 'click', 'keydown']
-      var chars = [98,114,97,110,99,104,46,109,105,99].concat(
-        [104,97,101,108,64,103,109,97,105,108]).concat([46,99,111,109])
+      var chars = [98,114,97,110,99,104,46,109,105,99]
+        .concat([104,97,101,108,64,103,109,97,105,108])
+        .concat([46,99,111,109])
 
       var revealEmail = function() {
         var email = ''
@@ -184,6 +204,7 @@
           document.removeEventListener(eventName, revealEmail)
         })
       }
+
       events.forEach(function(eventName) {
         document.addEventListener(eventName, revealEmail)
       })
