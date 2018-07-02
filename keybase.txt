@@ -1,0 +1,49 @@
+  * I am mbranch (https://keybase.io/mbranch) on keybase.
+  * I have a public key ASDeCEi-DTmkzlzWzu0cUfoenvk7T1pHzNOIZrM9DlzNawo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120de0848be0d39a4ce5cd6ceed1c51fa1e9ef93b4f5a47ccd38866b33d0e5ccd6b0a",
+      "host": "keybase.io",
+      "kid": "0120de0848be0d39a4ce5cd6ceed1c51fa1e9ef93b4f5a47ccd38866b33d0e5ccd6b0a",
+      "uid": "bdcb8d4244e3414e70f947706275ed19",
+      "username": "mbranch"
+    },
+    "merkle_root": {
+      "ctime": 1530560982,
+      "hash": "fa72a3f0aa3bfdd1834f2a97a904e459b7466291d5c176d702cd7810a977a0ddbc5c32eb17bbf3968f9da02b06cfcfc07f7afc0a00e42ac7f11c0ac8f4bd26ae",
+      "hash_meta": "9740dc2ef82b7ea91125ecde72b5b49b9b8d4b7e694e7bd03f234e15b179ab94",
+      "seqno": 3189535
+    },
+    "service": {
+      "entropy": "LcfJm/ib5FTGW4HTFV1Eq2N+",
+      "hostname": "michaelbran.ch",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.1.2"
+  },
+  "ctime": 1530561014,
+  "expire_in": 504576000,
+  "prev": "222b6997b341c6029285e7cea3d33747b5ecab3a67d03cf030742a0326caf7f2",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg3ghIvg05pM5c1s7tHFH6Hp75O09aR8zTiGazPQ5czWsKp3BheWxvYWTESpcCB8QgIitpl7NBxgKShefOo9M3R7Xsqzpn0DzwMHQqAybK9/LEIDUB+4R5ZDPYJg0W0Ntkn4ulsCPxSciXuIC48dnFN8dVAgHCo3NpZ8RAmXz/iYOlGK/q4Ny3z4NFrz7+/4S/py0rsN9eVXSFKr611HIObtMXyCxt02YL9G5ZcptPyQaAhqz7A9OQ++oRBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKh5RR1qSlCt+QGpoxH+ki0BKrs8Mfn41sd963Piunp3o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mbranch
+
+==================================================================
