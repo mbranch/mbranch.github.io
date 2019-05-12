@@ -106,6 +106,14 @@ hr {
   padding: 0;
 }
 
+code {
+  background: #eee;
+  border-radius: 3px;
+  border: 1px solid #c7d0d8;
+  color: #336699;
+  padding: 2px;
+}
+
 p.subtitle {
   font-style: italic;
   margin-top: 1rem;
