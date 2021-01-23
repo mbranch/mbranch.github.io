@@ -27,7 +27,6 @@
       content="https://michaelbran.ch/img/michael-branch.jpg"
     />
 
-
     <link rel="stylesheet" href="/css/tufte.css?f76115ba" />
     <link rel="icon" type="image/png" href="/img/favicon.png" />
   </head>
@@ -49,19 +48,36 @@
 
       <section>
         <p>
+          <em>Director of Software Engineering</em> at
+          <a href="https://toggle.is">Toggle</a
+          ><label for="Toggle" class="margin-toggle sidenote-number"></label
+          ><input type="checkbox" id="deliveroo" class="margin-toggle" /><span
+            class="sidenote"
+            >September 2020 in New York City and Seattle.</span
+          >
+        </p>
+        <p>
+          Architecture, design, and development of internal and customer facing
+          software tools to operate the business and coordinate robotic
+          production.
+        </p>
+      </section>
+
+      <section>
+        <p>
           <em>Staff Software Engineer</em> at
           <a href="https://deliveroo.co.uk">Deliveroo</a
           ><label for="deliveroo" class="margin-toggle sidenote-number"></label
           ><input type="checkbox" id="deliveroo" class="margin-toggle" /><span
             class="sidenote"
-            >July 2017 — Present in New York City and London.</span
+            >July 2017 — August 2020 in New York City and London.</span
           >
         </p>
         <p>Deliveroo acquired Maple in May 2017.</p>
         <p>
           Introduced <code>Go</code> as a technology for building software to an
-          engineering team that was almost exclusively using Ruby on Rails
-          in a microservices architecture.
+          engineering team that was almost exclusively using Ruby on Rails in a
+          microservices architecture.
         </p>
         <ul>
           <li>
@@ -77,8 +93,7 @@
 
       <section>
         <p>
-          <em>Software Engineer</em> at
-          <a href="https://maple.com">Maple</a
+          <em>Software Engineer</em> at <a href="https://maple.com">Maple</a
           ><label for="maple" class="margin-toggle sidenote-number"></label
           ><input type="checkbox" id="maple" class="margin-toggle" /><span
             class="sidenote"
@@ -196,9 +211,7 @@
         </p>
 
         <ul>
-          <li>
-            Maintained the API that served multiple mobile apps.
-          </li>
+          <li>Maintained the API that served multiple mobile apps.</li>
           <li>
             Worked with several technologies to improve and measure performance
             including <code>memcached</code>, <code>Riak</code>, and
@@ -415,7 +428,7 @@
 
     <footer>
       <p>
-        <small>Updated <em>12-May 2019</em>.</small>
+        <small>Updated <em>23-Jan 2021</em>.</small>
       </p>
     </footer>
 
@@ -425,24 +438,24 @@
        * that execute JavaScript. Await a user generated event before exposing
        * the raw email address.
        */
-      var events = ["mouseover", "click", "keydown", "touchstart"]
+      var events = ["mouseover", "click", "keydown", "touchstart"];
       var chars = [98, 114, 97, 110, 99, 104, 46, 109, 105, 99]
         .concat([104, 97, 101, 108, 64, 103, 109, 97, 105, 108])
-        .concat([46, 99, 111, 109])
-      var $link = document.getElementById("mailto-link")
-      var revealEmail = function() {
-        var email = ""
-        chars.forEach(function(code) {
-          email += String.fromCharCode(code)
-        })
-        $link.href = "mailto:" + email
-        events.forEach(function(eventName) {
-          $link.removeEventListener(eventName, revealEmail)
-        })
-      }
-      events.forEach(function(eventName) {
-        $link.addEventListener(eventName, revealEmail)
-      })
+        .concat([46, 99, 111, 109]);
+      var $link = document.getElementById("mailto-link");
+      var revealEmail = function () {
+        var email = "";
+        chars.forEach(function (code) {
+          email += String.fromCharCode(code);
+        });
+        $link.href = "mailto:" + email;
+        events.forEach(function (eventName) {
+          $link.removeEventListener(eventName, revealEmail);
+        });
+      };
+      events.forEach(function (eventName) {
+        $link.addEventListener(eventName, revealEmail);
+      });
     </script>
   </body>
 </html>
